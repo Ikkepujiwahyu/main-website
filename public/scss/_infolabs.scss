@@ -1,0 +1,74 @@
+/*h1 nduwur dewe*/
+#laboratoire {
+    background-color: $color-white;
+    position: relative;
+
+    .labo-wire-top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        mix-blend-mode: overlay;
+        width: 485px;
+        max-width: 100%;
+    }
+
+    .labo-wire-bottom {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        mix-blend-mode: overlay;
+        transform: rotate(180deg);
+        width: 485px;
+        max-width: 100%;
+    }
+
+    .container {
+        position: relative;
+        z-index: 1;
+
+        .labo-title {
+            font-family: $font-abril;
+            color: $darker-blue;
+            font-weight: 400;
+            font-size: 2.4rem;
+        }
+
+        .row {
+            .labo-logo {
+                width: 350px;
+                max-width: 100%;
+            }
+
+            .labo-desc {
+                font-family: $font-zilla;
+                color: $darker-blue;
+                font-size: 1.75rem;
+                line-height: 2rem;
+                text-align: justify;
+            }
+        }
+
+        .labo-section {
+            font-family: $font-zilla;
+            color: $darker-blue;
+            font-weight: 600;
+            font-size: 1.9rem;
+            width: fit-content;
+            background-color: $primary-event;
+            padding: 0.5rem 2rem;
+        }
+
+        .labo-list {
+            list-style: decimal;
+
+            li {
+                margin-bottom: 1rem;
+                font-family: $font-zilla;
+                color: $darker-blue;
+                font-weight: 500;
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
+        }
+    }
+}

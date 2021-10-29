@@ -6,7 +6,7 @@
 <!-- header -->
 <section id="header">
   <div class="container container-fluid d-flex align-items-center justify-content-center flex-lg-row flex-column header-epw">
-    <img src="/img/epw-logo/logo-red.png" class="logo-epw">
+    <img src="/svg/icons/icon-epw-red.svg" class="logo-epw">
     <div class="container-fluid d-flex align-items-center justify-content-center flex-column header-2022">
     <img src="/img/logo-2022.png" class="logo-2022">
     <p>Engineering Physics Week</p>
@@ -57,10 +57,10 @@
       <img src="/svg/icons/events-icon.svg" class="events" alt="events">
     </div>
     <div class="d-flex justify-content-evenly align-items-center">
-      <div class="EPC-events">EPC</div>
-      <div class="SNOW-events">SNOW</div>
-      <div class="GR-events">GRAND<br>ROADSHOW</div>
-      <div class="BE-events">BIG EVENT</div>
+      <a href="/epc" class="EPC-events">EPC</a>
+      <a href="/snow" class="SNOW-events">SNOW</a>
+      <a href="" class="GR-events">GRAND<br>ROADSHOW</a>
+      <a href="" class="BE-events">BIG EVENT</a>
     </div>
   </div>
 </section>
@@ -80,7 +80,7 @@
       <a href="" class="epc-btn">Detail</a>
     </div>
   </div>
-  <img src="/jpg/DSC_1274 1.jpg" class="epc-nih" alt="epc-nih">
+  <img src="/img/EPC/bg-EPC.jpg" class="epc-nih" alt="epc-nih">
 </section>
 <!-- end of EPC-->
 <!-- SNOW -->
@@ -100,7 +100,7 @@
       <a href="" class="snow-btn">Detail</a>
     </div>
   </div>
-  <img src="/jpg/IMG_6989 1.jpg" class="snow-nih" alt="snow-nih">
+  <img src="/img/SNOW/bg-snow.jpg" class="snow-nih" alt="snow-nih">
 </section>
 <!-- end of SNOW -->
 <!-- Grand Roadshow -->
@@ -119,7 +119,7 @@
       <a href="" class="GR-btn">Detail</a>
     </div>
   </div>
-  <img src="/jpg/IMG_6930 (FILEminimizer) 1.jpg" class="GR-nih" alt="GR-nih">
+  <img src="/img/Grand-Roadshow/bg-grand-roadshow.jpg" class="GR-nih" alt="GR-nih">
 </section>
 <!-- end of Grand Roadshow -->
 <!-- Big Event -->
@@ -137,7 +137,7 @@
       <a href="" class="BE-btn">Detail</a>
     </div>
   </div>
-  <img src="/jpg/_DSC0110 1.jpg" class="BE-nih" alt="BE-nih">
+  <img src="/img/Big-Event/bg-big-event.jpg" class="BE-nih" alt="BE-nih">
 </section>
 <!-- end of Big Event -->
 {{-- End of Buat KIKIK --}}
